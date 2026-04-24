@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: beige;
+}
+header{
+    width:100vw;
+    height: auto;
+    padding:8px 6px;
+    background: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+ul a{
+    text-decoration: none;
+}
+
+#hero_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+}
+button{
+    cursor: pointer;
+    padding: 2px 4px;
+    background: black;
+    color: white;
+}
+
+#cardSection{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+    width: 100vw;
+    height:auto;
+    justify-content:space-between;
+    gap: 120px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid;
+    height: 350px;
+    width: 300px;
+    padding: 5px;
+    border-radius: 8px;
+}
+.img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.img img{
+    width: 80%;
+}
